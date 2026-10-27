@@ -1,0 +1,18 @@
+FLUTTER LABORATORY ACTIVITY 1: GUIDE QUESTIONS & ANSWERS
+Student Name: John Mark Bolañon
+Course & Section: BS Information Technology - 2nd Year IT2A
+
+1. What is a StatelessWidget, and why is it appropriate for this application?
+A StatelessWidget is a Flutter widget that does not manage mutable internal state and whose visual appearance depends solely on its initial configuration. It is appropriate for this application because all student profile information (name, ID, course, about me, and hobbies) is static, predefined content that does not need to change dynamically at runtime based on user interaction.
+
+2. What does the build() method return?
+The build() method returns a Widget (or widget tree) that describes the visual structure and interface elements of the component. Flutter calls this method whenever the widget needs to be rendered on the screen within the given BuildContext.
+
+3. What is the difference between MaterialApp and Scaffold?
+MaterialApp is the root-level widget that configures overall application-wide settings such as title, themes, routing, and Material Design defaults. Scaffold is a screen-level layout widget used within MaterialApp that provides standard UI structure and visual slots such as the AppBar, body, floating action button, and background color for an individual page.
+
+4. How do Column, Padding, and SizedBox help organize your screen?
+Column arranges its children vertically in a sequential top-to-bottom stack. Padding wraps widgets with inset spacing to ensure content does not touch the viewport borders or look cramped. SizedBox provides fixed-dimension empty space between widgets to control vertical and horizontal separation precisely.
+
+5. Why did you use SingleChildScrollView in the profile page?
+SingleChildScrollView was used so that the content can be scrolled smoothly when the total height of the profile widgets exceeds the device's screen height. This ensures that all details remain accessible and prevents "RenderFlex overflowed" errors across different device resolutions and screen orientations.
