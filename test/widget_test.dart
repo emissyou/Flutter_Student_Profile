@@ -9,9 +9,14 @@ void main() {
     // Verify key elements are rendered.
     expect(find.text('Student Profile'), findsOneWidget);
     expect(find.text('John Mark Bolañon'), findsOneWidget);
-    expect(find.text('BS Information Technology'), findsOneWidget);
+    expect(
+      find.text('BSIT - Bachelor of Science in Information Technology'),
+      findsOneWidget,
+    );
+    expect(find.text('554399'), findsOneWidget);
+    expect(find.text('3rd Year - BSIT'), findsOneWidget);
     expect(find.text('About Me'), findsOneWidget);
     expect(find.text('Hobbies & Interests'), findsOneWidget);
-    expect(find.text('Coding'), findsOneWidget);
+    expect(find.text('Flutter & Dart'), findsOneWidget);
   });
 }

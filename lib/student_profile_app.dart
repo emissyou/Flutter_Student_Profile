@@ -10,10 +10,27 @@ class StudentProfileApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Student Profile',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.indigo,
-        ),
         useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF3F51B5), // Indigo
+          brightness: Brightness.light,
+        ),
+        scaffoldBackgroundColor: const Color(0xFFF5F7FB),
+        cardTheme: CardThemeData(
+          elevation: 1.5,
+          shadowColor: Colors.black.withAlpha(25),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          color: Colors.white,
+          margin: EdgeInsets.zero,
+        ),
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
+          backgroundColor: Color(0xFF303F9F),
+          foregroundColor: Colors.white,
+        ),
       ),
       home: const StudentProfilePage(),
     );
