@@ -286,7 +286,7 @@ class StudentProfilePage extends StatelessWidget {
                             ),
                           ),
                           subtitle: const Text(
-                            'johnmark.bolanon@student.edu.ph',
+                            'j.bolanon.554399@umindanao.edu.ph',
                             style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w600,
