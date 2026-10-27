@@ -8,7 +8,7 @@ void main() {
 
     // Verify key elements are rendered.
     expect(find.text('Student Profile'), findsOneWidget);
-    expect(find.text('John Mark Bolañon'), findsOneWidget);
+    expect(find.text('John Mark Bolanon'), findsOneWidget);
     expect(
       find.text('BSIT - Bachelor of Science in Information Technology'),
       findsOneWidget,

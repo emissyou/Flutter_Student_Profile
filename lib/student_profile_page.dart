@@ -39,10 +39,7 @@ class StudentProfilePage extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(24),
                       gradient: LinearGradient(
-                        colors: [
-                          Colors.white,
-                          const Color(0xFFEEF2FF),
-                        ],
+                        colors: [Colors.white, const Color(0xFFEEF2FF)],
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                       ),
@@ -96,7 +93,7 @@ class StudentProfilePage extends StatelessWidget {
 
                         // Student Name
                         const Text(
-                          'John Mark Bolañon',
+                          'John Mark Bolanon',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 24,
